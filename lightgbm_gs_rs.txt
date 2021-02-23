@@ -1,0 +1,38 @@
+[LightGBM] [Warning] num_iterations is set=1000, num_iteration=1000 will be ignored. Current value: num_iterations=1000
+[LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+
+========================================================
+ Results from Grid Search 
+========================================================
+
+ The best estimator across ALL searched params:
+ LGBMClassifier(learning_rate=0.01, max_depth=10, num_iteration=1000)
+
+ The best parameters across ALL searched params:
+ {'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100, 'num_iteration': 1000}
+
+ ========================================================
+Fitting 10 folds for each of 10 candidates, totalling 100 fits
+
+========================================================
+ Results from Random Search 
+========================================================
+
+ The best estimator across ALL searched params:
+ LGBMClassifier(learning_rate=0.4050583591111818, max_depth=6, n_estimators=859,
+               num_iteration=3944)
+
+ The best score across ALL searched params:
+ 0.7406688745821468
+
+ The best parameters across ALL searched params:
+ {'learning_rate': 0.4050583591111818, 'max_depth': 6, 'n_estimators': 859, 'num_iteration': 3944}
+
+ ========================================================
+
+
+Random Search score:  0.7406688745821468
+
+Grid Search score:  0.7663815979530353
+
+The better model found in Grid Search ... ... ... ...
